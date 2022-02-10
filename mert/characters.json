@@ -16,7 +16,7 @@
   {
     "id": 2,
     "name": "Ayşegül",
-    "alias": "Poyraz Karayel",
+    "alias": "Ayşegül",
     "occupation": "Bahri's daughter",
     "gender": "Female",
     "status": "Alive",
@@ -30,11 +30,11 @@
   {
     "id": 3,
     "name": "Bahri Umman",
-    "alias": "Poyraz Karayel",
-    "occupation": "Mafia Father",
+    "alias": "Bahri Umman",
+    "occupation": "Bahri Father's right hand",
     "gender": "Male",
     "status": "Alive",
-    "romance": "Despina",
+    "romance": "Meltem & Çiğdem",
     "family": "Turkey",
     "first_appearance": "2015",
     "last_appearance": "2017",
@@ -43,8 +43,8 @@
   },
   {
     "id": 4,
-    "name": "Agata Jimenez",
-    "alias": "Nairobi",
+    "name": "Zülfikar",
+    "alias": "Zülfikar",
     "occupation": "Robber",
     "gender": "Female",
     "status": "Deceased",
@@ -52,8 +52,8 @@
     "family": "Axel",
     "first_appearance": "P1 E1",
     "last_appearance": "P4 E7",
-    "played_by": "Alba Flores",
-    "image": "https://wallpapercave.com/wp/wp5162352.jpg"
+    "played_by": "Celil Nalçakan",
+    "image": "https://i.kanald.com.tr/i/kanald/70/200x286/54668fc061361f06c8ba7035"
   },
   {
     "id": 5,
