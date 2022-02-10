@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Ahmet Poyraz Karayel",
-    "alias": "İlker Kaleli",
+    "alias": "Poyraz Karayel",
     "occupation": "Former Police",
     "gender": "Male",
     "status": "Alive",
@@ -16,7 +16,7 @@
   {
     "id": 2,
     "name": "Ayşegül",
-    "alias": "Burçin Terzioğlu",
+    "alias": "Poyraz Karayel",
     "occupation": "Bahri's daughter",
     "gender": "Female",
     "status": "Alive",
@@ -29,17 +29,17 @@
   },
   {
     "id": 3,
-    "name": "Silene Oliveira",
-    "alias": "Tokyo",
-    "occupation": "Robber",
-    "gender": "Female",
+    "name": "Bahri Umman",
+    "alias": "Poyraz Karayel",
+    "occupation": "Mafia Father",
+    "gender": "Male",
     "status": "Alive",
-    "romance": "Rio",
-    "family": "",
-    "first_appearance": "P1 E1",
-    "last_appearance": "P4 E8",
-    "played_by": "Ursula Corbera",
-    "image": "https://wallpapercave.com/wp/wp8638125.jpg"
+    "romance": "Despina",
+    "family": "Turkey",
+    "first_appearance": "2015",
+    "last_appearance": "2017",
+    "played_by": "Musa Uzunlar",
+    "image": "https://i.kanald.com.tr/i/kanald/70/200x286/54668f8461361f06c8ba702c"
   },
   {
     "id": 4,
