@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Ahmet Poyraz Karayel",
-    "alias": "Poyraz Karayel",
+    "alias": "İlker Kaleli",
     "occupation": "Former Police",
     "gender": "Male",
     "status": "Alive",
@@ -16,16 +16,16 @@
   {
     "id": 2,
     "name": "Ayşegül",
-    "alias": "Ayşegül",
+    "alias": "Burçin Terzioğlu",
     "occupation": "Bahri's daughter",
     "gender": "Female",
     "status": "Alive",
     "romance": "Ahmet Poyraz Karayel",
-    "family": "Professor",
+    "family": "Turkey",
     "first_appearance": "2015",
     "last_appearance": "2017",
     "played_by": "Burçin Terzioğlu",
-    "image": "https://img02.imgsinemalar.com/images/afis_buyuk/b/burcin-terzioglu-1558358616.jpg"
+    "image": "https://i.kanald.com.tr/i/kanald/70/200x286/54668f2461361f06c8ba7024"
   },
   {
     "id": 3,
