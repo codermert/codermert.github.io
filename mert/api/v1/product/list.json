@@ -1,0 +1,83 @@
+[
+    {
+        "id": 9,
+        "title": "کفش ورزشی مردانه مدل ZoomX",
+        "price": 1873000,
+        "discount": 100000,
+        "image": "https://s3.ir-thr-at1.arvanstorage.com/nike/zoomx-vaporfly-next-running-shoe-T5qg9m.jpg",
+        "status": 1,
+        "previous_price": 1973000
+    },
+    {
+        "id": 8,
+        "title": "کفش ورزشی مدل Pegasus Air Zoom",
+        "price": 1043000,
+        "discount": 200000,
+        "image": "https://s3.ir-thr-at1.arvanstorage.com/nike/air-zoom-pegasus-37-running-shoe-W3gMz9%20(2).jpg",
+        "status": 1,
+        "previous_price": 1243000
+    },
+    {
+        "id": 7,
+        "title": "کفش مناسب پیاده روی مدل Air Max",
+        "price": 1266000,
+        "discount": 30000,
+        "image": "https://s3.ir-thr-at1.arvanstorage.com/nike/air-max-tailwind-v-sp-shoe-X3KFzx.jpg",
+        "status": 1,
+        "previous_price": 1296000
+    },
+    {
+        "id": 6,
+        "title": "کفش ورزشی زنانه مدل Pegasus Trail 2",
+        "price": 1529000,
+        "discount": 200000,
+        "image": "https://s3.ir-thr-at1.arvanstorage.com/nike/pegasus-trail-2-gore-tex-trail-running-shoe-9mb9Cm.jpg",
+        "status": 1,
+        "previous_price": 1729000
+    },
+    {
+        "id": 5,
+        "title": "کفش ورزشی زنانه مدل Air Max 2090",
+        "price": 1311000,
+        "discount": 200000,
+        "image": "https://s3.ir-thr-at1.arvanstorage.com/nike/air-max-2090-shoe-K70T6b.jpg",
+        "status": 1,
+        "previous_price": 1511000
+    },
+    {
+        "id": 4,
+        "title": "کفش ورزشی مردانه مدل Air Zoom Pegasus 37",
+        "price": 683000,
+        "discount": 100000,
+        "image": "https://s3.ir-thr-at1.arvanstorage.com/nike/air-zoom-pegasus-37-running-shoe-W3gMz9%20(1).jpg",
+        "status": 1,
+        "previous_price": 783000
+    },
+    {
+        "id": 3,
+        "title": "کفش ورزشی مدل Legend Essential Training",
+        "price": 4000000,
+        "discount": 500000,
+        "image": "https://s3.ir-thr-at1.arvanstorage.com/nike/legend-essential-training-shoe-LQJd5v.jpg",
+        "status": 1,
+        "previous_price": 4500000
+    },
+    {
+        "id": 2,
+        "title": "کفش بسکتبال مدل Jordan React",
+        "price": 790000,
+        "discount": 10000,
+        "image": "https://s3.ir-thr-at1.arvanstorage.com/nike/jordan-react-elevation-basketball-shoe-3MNcdW%20(1).jpg",
+        "status": 1,
+        "previous_price": 800000
+    },
+    {
+        "id": 1,
+        "title": "کفش ورزشی مدل Legend React 3",
+        "price": 268000,
+        "discount": 2000,
+        "image": "https://s3.ir-thr-at1.arvanstorage.com/nike/legend-react-3-shield-running-shoe-WWzCLk.jpg",
+        "status": 1,
+        "previous_price": 270000
+    }
+]
