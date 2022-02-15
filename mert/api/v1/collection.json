@@ -1,0 +1,578 @@
+{
+	"info": {
+		"_postman_id": "7b846f7f-bc91-44c7-8a61-e881aebb2332",
+		"name": "Nike Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "{{server-url}}/product/list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{server-url}}/product/list?sort=3",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"product",
+						"list"
+					],
+					"query": [
+						{
+							"key": "sort",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/product/search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server-url}}/product/search?q=sam",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"product",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "sam"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/banner/slider",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server-url}}/banner/slider",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"banner",
+						"slider"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/oauth/token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "application/json",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "kyj1c9sVcksqGU4scMX7nLDalkjp2WoqQEf8PKAC",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "test@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{server-url}}/auth/token",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"auth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/oauth/refresh",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "application/json",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "grant_type",
+							"value": "refresh_token",
+							"type": "text"
+						},
+						{
+							"key": "refresh_token",
+							"value": "def502008f3cc8c7f8796b4946f20169a1b6fb09471da59b8f3b9ed9e44889a17adf248247e4223575b04c18e37113b3013549a1e64b5778d4a1166aa65e73476a2abd888d83597334569ea223c440b83531904136dd0a295ff2863397063a6e23c3165f6cd7c909607966865375145f1596f4d6145ada95333e5e09acfc337ccff7416db546d3233b7e972412a2d8b2660102ca7bc78180a4ad866585439d924b586a85ce271a3a8e069b62764a73597d94c9348a03595b5c7c64b2d86d1c63d89945dfa839ad0c4498470fd0947261db8dc0e799239853fdc25ee74053ebd41099a887f199281f8213ade142e9499ae8e9368256d6e9263bf173673102b9d077cd8ef05c3bbcc7a385372d574cd72356d504fcf78271180fb9ac6814d1e208e0bfbaf0c0cee3c6752e2a71d480297ee1fb50b3e329785c6b07b7c799ccccbaf72f5eb5eefef7d83e3a983e2fe80f8b82bcca4e85dca8cd9872f7c0f1c050dbed",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "kyj1c9sVcksqGU4scMX7nLDalkjp2WoqQEf8PKAC",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{server-url}}/auth/token",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"auth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/user/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\":\"saeedd@gmail.com\",\"password\":\"saeed\"}"
+				},
+				"url": {
+					"raw": "{{server-url}}/user/register",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/cart/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"product_id\":2\n}"
+				},
+				"url": {
+					"raw": "{{server-url}}/cart/add",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"cart",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/cart/list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{server-url}}/cart/list",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"cart",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/cart/remove",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"cart_item_id\":518\n}"
+				},
+				"url": {
+					"raw": "{{server-url}}/cart/remove",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"cart",
+						"remove"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/order/list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{token}}"
+					}
+				],
+				"url": {
+					"raw": "{{server-url}}/order/list",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"order",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/cart/count",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{server-url}}/cart/count",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"cart",
+						"count"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/cart/changeCount",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"cart_item_id\":519,\n\t\"count\":1\n}"
+				},
+				"url": {
+					"raw": "{{server-url}}/cart/changeCount",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"cart",
+						"changeCount"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/order/submit",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"first_name\":\"saeed\",\n\t\"last_name\":\"shahini\",\n\t\"postal_code\":\"1234567890\",\n\t\"mobile\":\"09378122153\",\n\t\"address\":\"sdaasddasdaddsasdasasd\",\n\t\"payment_method\":\"cash_on_delivery\"\n}"
+				},
+				"url": {
+					"raw": "{{server-url}}/order/submit",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"order",
+						"submit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/order/update/status?id=16&status=payed",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{server-url}}/order/update/status?order_id=16&status=payed",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"order",
+						"update",
+						"status"
+					],
+					"query": [
+						{
+							"key": "order_id",
+							"value": "16"
+						},
+						{
+							"key": "status",
+							"value": "payed"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/comment/list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjJkM2I5YzNkNmUxODdmMjQ3MjYyMzliNDZjYzJlZDFlZWJlMGY2NjBkZjFjYTkwYzJmOWE3MmJhY2I5MjNjMGEzMWIyMmVhMjhkNGQ4NDUyIn0.eyJhdWQiOiIyIiwianRpIjoiMmQzYjljM2Q2ZTE4N2YyNDcyNjIzOWI0NmNjMmVkMWVlYmUwZjY2MGRmMWNhOTBjMmY5YTcyYmFjYjkyM2MwYTMxYjIyZWEyOGQ0ZDg0NTIiLCJpYXQiOjE1MjkxNTEyMTksIm5iZiI6MTUyOTE1MTIxOSwiZXhwIjoxNTMwNDQ3MjE5LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.nbhTzL7tPVzK_pw52KX6B0B0pujj0f1Im7BW3seGxdEEZCK_rC75pZJDMGYxLgB0NJf4QqjyTEBhWvbrXHPf31ihQ81sK9oC5JsJZUTWLU8QcYToJojREsXi92bLttBOWNlKcFQgk8_eAm65XWkPMGGBa-2sbk4Q9_-4-fRD4agP3AlJ7l8ct1bIaNWouHjIjdEw0TFkA0j6VC79aiMvtOOw0B9MxLOjDQ3oOKU12ig0dj64zIwEpx-4sfmremmo1r71YmQQ7flVle7h0NXeu5rt2b8Xlctw60oJ6ZwebwFAL_Ubd42sbM13KJI-OPjf40_UIjwW6B8XnTQJj49N6pZM3Jtb5xTgf3P3JAV8s5c52Yb_fFjPNCQbT7YI6bYkaCqmiH3aaaPbzrFaY2Xgd5wohrVlBcxUNFU_dOiivnObITjjGxx08eMfXVI_nBomXd2YN2pHCkaX2rfi0MHh1YrbLEgBQF8u_YYfCPiZZOQ5mspa0c6_EF5F5WKMLsylI3zkbaMuC4C_6p7QHD86-z3GIagfk9oNCQXeJ9ITkZw3z1FRSbfSjyZhZ5eyzuIzyLc54E1_kPaYPIq22DMQoJ9Y4JT9Ufr2cqQgZgy8r3Jp7M7Sk1uEJ0SetAqXT4rwH_pdHIWd5FZbaWfFhGT0ihNA2bn5G0f6Bxark6txvNE",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{server-url}}/comment/list?product_id=9",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"comment",
+						"list"
+					],
+					"query": [
+						{
+							"key": "product_id",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/comment/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\":\"خیلی شیک و اسپرته\",\n\t\"content\":\"واقعا یکی از بهترین کفش هاییه که تا حالا دیدم خیلی خوبه\",\n\t\"product_id\":3\n}"
+				},
+				"url": {
+					"raw": "{{server-url}}/comment/add",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"comment",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{server-url}}/order/checkout",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{server-url}}/order/checkout",
+					"host": [
+						"{{server-url}}"
+					],
+					"path": [
+						"order",
+						"checkout"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
