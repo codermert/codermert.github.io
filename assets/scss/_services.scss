@@ -1,0 +1,46 @@
+#s-services {
+  @include spacing-section;
+  background-color: $bg-secondary;
+  .grid-layout {
+    h2 {
+      text-align: center;
+      @include title-section();
+      span {
+        color: $color-main;
+        font-size: $gap-6;
+      }
+    }
+    #services {
+      display: flex;
+      height: auto;
+      flex-wrap: wrap;
+      margin: $gap-3 0px;
+      article {
+        background-color: $bg-main;
+        @include block-article;
+        div {
+          height: 90px;
+          img {
+            width: 70px;
+          }
+        }
+        h3 {
+          padding: $gap-3 0px;
+          color: $color-white;
+          font: {
+            size: 2.4rem;
+            weight: 500;
+          }
+        }
+        p {
+          line-height: 3.2rem;
+          color: $color-gray;
+          font: {
+            family: $font-secondary;
+            size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+#s-projects {
+  @include spacing-section;
+  text-align: center;
+  background-color: $bg-main;
+  .grid-layout {
+    h2 {
+      @include title-section();
+      span {
+        color: $color-main;
+        font-size: $gap-6;
+      }
+    }
+    #projects {
+      margin: $gap-3 0px;
+      @include flexbox-between;
+      text-align: left;
+      > article {
+        background-color: $bg-secondary;
+        @include block-article;
+        h3 {
+          color: $color-white;
+          font: {
+            size: 2.4rem;
+            weight: 500;
+          }
+        }
+        p {
+          line-height: $gap-3;
+          margin-top: $gap-3;
+          color: $color-gray;
+          line-height: 3.2rem;
+          font: {
+            family: $font-secondary;
+            size: 1.8rem;
+          }
+        }
+      }
+    }
+    a {
+      color: $color-main;
+      position: relative;
+      @include hover-link();
+      font: {
+        size: 1.8rem;
+        weight: 500;
+      }
+    }
+  }
+}
