@@ -12,7 +12,7 @@
             "status": "Uzm. Dr.",
             "species": "Ağız ve Diş Sağlığı",
             "type": "",
-            "gender": "Kadın Doktor",
+            "gender": "Kadın",
             "origin": {
                 "name": "Istanbul",
                 "url": "Istanbul"
@@ -80,20 +80,20 @@
         },
         {
             "id": 2,
-            "name": "Morty Smith",
-            "status": "Alive",
-            "species": "Human",
+            "name": "Dr. Dt. Duygu YAŞAR TUNA",
+            "status": "Dr. Dt.",
+            "species": "Ağız ve Diş Sağlığı",
             "type": "",
-            "gender": "Male",
+            "gender": "Kadın",
             "origin": {
-                "name": "unknown",
-                "url": ""
+                "name": "Istanbul",
+                "url": "Istanbul"
             },
             "location": {
-                "name": "Citadel of Ricks",
-                "url": "https://rickandmortyapi.com/api/location/3"
+                "name": "Ataşehir  Hastanesi",
+                "url": "Ataşehir  Hastanesi"
             },
-            "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+            "image": "https://cdn.memorial.com.tr/files/2018/6/17727fb8-84b9-4f73-b1df-1a1442b61a8c.jpg",
             "episode": [
                 "https://rickandmortyapi.com/api/episode/1",
                 "https://rickandmortyapi.com/api/episode/2",
@@ -147,7 +147,7 @@
                 "https://rickandmortyapi.com/api/episode/50",
                 "https://rickandmortyapi.com/api/episode/51"
             ],
-            "url": "https://rickandmortyapi.com/api/character/2",
+            "url": "https://raw.githubusercontent.com/codermert/codermert.github.io/main/mert/memorial/2",
             "created": "2017-11-04T18:50:21.651Z"
         },
         {
