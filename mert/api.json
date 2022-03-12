@@ -14,8 +14,8 @@
             "type": "",
             "gender": "Kadın Doktor",
             "origin": {
-                "name": "Earth (C-137)",
-                "url": "https://rickandmortyapi.com/api/location/1"
+                "name": "Istanbul",
+                "url": "Istanbul"
             },
             "location": {
                 "name": "Bahçelievler Hastanesi",
